@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Koala Marketing Solutions</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Koala Marketing</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container">
+        <h1>Impulsa tu negocio con nosotros</h1>
+        <p>Soluciones digitales para el crecimiento de tu marca</p>
+        <button class="btn btn-primary" onclick="saludo()">Contáctanos</button>
+    </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="container my-5 text-center">
+    <h2 class="mb-4">Nuestros Servicios</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <i class="bi bi-laptop icono"></i>
+            <h4>Desarrollo Web</h4>
+            <p>Páginas modernas y responsivas.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="bi bi-bar-chart icono"></i>
+            <h4>Marketing Digital</h4>
+            <p>Campañas optimizadas.</p>
+        </div>
+        <div class="col-md-4">
+            <i class="bi bi-phone icono"></i>
+            <h4>Apps Móviles</h4>
+            <p>Soluciones móviles.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PRODUCTOS -->
+<section id="productos" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Productos</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Landing Pages</h5>
+                        <p>Alta conversión.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" class="card-img-top">
+                    <div class="card-body">
+                        <h5>E-commerce</h5>
+                        <p>Tiendas online.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" class="card-img-top">
+                    <div class="card-body">
+                        <h5>SEO Tools</h5>
+                        <p>Posicionamiento web.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- VIDEO -->
+<section class="container my-5 text-center">
+    <h2>Conócenos</h2>
+    <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/Ke90Tje7VS0" allowfullscreen></iframe>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="container my-5">
+    <h2 class="text-center mb-4">Contáctanos</h2>
+    <form id="formulario">
+        <input type="text" class="form-control mb-3" placeholder="Nombre" required>
+        <input type="email" class="form-control mb-3" placeholder="Correo" required>
+        <textarea class="form-control mb-3" placeholder="Mensaje" required></textarea>
+        <button class="btn btn-primary w-100">Enviar</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center">
+    <p>© 2026 Koala Marketing</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

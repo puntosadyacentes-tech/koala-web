@@ -1,0 +1,23 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background: linear-gradient(rgba(241, 221, 33, 0.6), rgba(36, 27, 121, 0.6)),
+                url('https://images.unsplash.com/photo-1557804506-669a67965ba0');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.icono {
+    font-size: 40px;
+    color: #0dfd19;
+}
+
+footer {
+    background-color: #022599;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
